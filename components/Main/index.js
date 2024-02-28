@@ -1,8 +1,8 @@
 const Main = () => {
-  const header = document.createElement('main')
-  header.classList.add('main');
-  header.textContent = 'Main';
-  return header;
+  const main = document.createElement('main')
+  main.classList.add('main');
+
+  return main;
 }
 
 const mainElement = Main();

@@ -1,8 +1,8 @@
 const Footer = () => {
-  const header = document.createElement('footer')
-  header.classList.add('footer');
-  header.textContent = 'Footer';
-  return header;
+  const footer = document.createElement('footer');
+  footer.classList.add('footer');
+
+  return footer;
 }
 
 
